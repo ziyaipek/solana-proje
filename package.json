@@ -1,0 +1,23 @@
+{
+  "name": "wallet",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "Ziya",
+  "scripts": {
+    "wallet": "ts-node ./wallet.ts",
+    "jukebox": "ts-node ./jukebox.ts"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.90.1",
+    "@types/node": "^20.9.3",
+    "@types/prompt": "^1.1.8",
+    "bs58": "^5.0.0",
+    "open": "^10.0.4",
+    "prompt": "^1.3.0",
+    "typescript": "^5.4.2"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1"
+  }
+}
